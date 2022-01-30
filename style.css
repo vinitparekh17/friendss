@@ -19,12 +19,9 @@ h1{
     animation: back 20s linear infinite;
 }
 @keyframes back{
- {
+  {
    background-position: 2000px 0;
- }
-}
-#t{
-    border-bottom: 5px dashed #001E6C;
+  }
 }
 
 .container{
