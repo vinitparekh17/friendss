@@ -14,6 +14,7 @@ h1{
     font-size: 120px;
     color: transparent;
     -webkit-text-stroke: 1px #fff;
+    -webkit-background-clip: text;
     background: url(./back.png);
     background-position: 0 0;
     animation: back 20s linear infinite;
