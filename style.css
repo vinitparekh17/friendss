@@ -28,10 +28,11 @@ h1{
 }
 
 .container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 1%;
+    background-image: linear-gradient(rgba(0,0,0,0.3),transparent),url(./background.png);
+    background-size: cover;
+    background-position: center;
+    padding: 0 8%;
+    position: relative;
 }
 
 .carousel-inner{
