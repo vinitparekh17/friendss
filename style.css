@@ -1,46 +1,67 @@
-body{
-    padding: 2.5%;
-    margin: 1%;
-    height: auto;
-    background: #A2DBFA;
-    font-size: 2rem;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
 }
 
-h1{
-    text-align: center;
-    font-family: Arial;
-    font-weight: 900;
-    margin-bottom: 2%;
-    font-size: 120px;
-    color: transparent;
-    -webkit-text-stroke: 1px #fff;
-    -webkit-background-clip: text;
-    background: url(./back.png);
-    background-position: 0 0;
-    animation: back 20s linear infinite;
-}
-@keyframes back{
-  100%{
-   background-position: 2000px 0;
-  }
-}
-
-.container{
-    background-image: linear-gradient(rgba(0,0,0,0.3),transparent),url(./background.png);
+#container{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0.3),transparent), url(./background.png);
     background-size: cover;
     background-position: center;
     padding: 0 8%;
-    position: relative;
+    position: absolute;
 }
 
-.carousel-inner{
-    margin-top: 5rem;
-    border-radius: 30px;
-    box-shadow: 0 2px 14px 10px rgba(0, 0, 0, 0.5);
+.text-box{
+    position:absolute;
+    top: 10%;
+    left: 10%;
+    line-height: 1.5;
 }
 
-p{
-    color: white;
-    text-shadow: 3px 3px 2px black;
-    font-size: 25px;
+h1{
+    font-size: 3.5rem;
+    color: transparent;
+    background: url(./back.png);
+    -webkit-text-stroke: 1px #fff;
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+    font-family: 'Abril Fatface', cursive;
+}
+
+h3{
+    font-size: 2.5rem;
+    color: transparent;
+    background: url(./back.png);
+    -webkit-text-stroke: 1px #fff;
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+    font-family: 'Abril Fatface', cursive;
+}
+
+h4{
+    font-size: 2.5rem;
+    color: transparent;
+    background: url(./back.png);
+    -webkit-text-stroke: 1px #fff;
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+    font-family: 'Abril Fatface', cursive;
+}
+
+@keyframes back{
+    100%{
+        background-position: 2000px 0;
+    }
+}
+
+#carouselExampleControls{
+    position: absolute;
+    bottom: 2%;
 }
