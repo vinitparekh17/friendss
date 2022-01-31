@@ -11,7 +11,7 @@
     background-image: linear-gradient(rgba(0,0,0.3),transparent), url(./background.png);
     background-size: cover;
     background-position: center;
-    padding: 1%;
+    padding: 0.5%;
     position: absolute;
 }
 
@@ -21,40 +21,40 @@
     left: 10%;
     line-height: 1.5;
     font-weight: 900;
-    text-shadow: 2px 5px 15px #fff;
+    text-shadow: 2px 5px 10px #fff;
 }
 
-h1{
-    font-size: 160px;
+#h1{
+    font-size: 8rem;
     color: transparent;
     background: url(./back.png);
     -webkit-text-stroke: 1px #fff;
     -webkit-background-clip: text;
     background-position: 0 0;
     animation: back 20s linear infinite;
-    font-family: Arial;
+    font-family: Times New Roman;
 }
 
-h3{
-    font-size: 110px;
+#h3{
+    font-size: 5rem;
     color: transparent;
     background: url(./back.png);
     -webkit-text-stroke: 1px #fff;
     -webkit-background-clip: text;
     background-position: 0 0;
     animation: back 20s linear infinite;
-    font-family: Arial;
+    font-family: Times New Roman;
 }
 
-h4{
-    font-size: 110px;
+#h4{
+    font-size: 5rem;
     color: transparent;
     background: url(./back.png);
     -webkit-text-stroke: 1px #fff;
     -webkit-background-clip: text;
     background-position: 0 0;
     animation: back 20s linear infinite;
-    font-family: Arial;
+    font-family: Times New Roman
 }
 
 h5{
@@ -70,4 +70,5 @@ h5{
 #carouselExampleControls{
     position: absolute;
     bottom: 20%;
+    left: 40%;
 }
